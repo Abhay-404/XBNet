@@ -28,7 +28,7 @@ setuptools.setup(
 
 
 		 install_requires=[
-	    "scikit-learn==1.3.0",  # Latest version of sklearn is part of scikit-learn
+	    "scikit-learn",  # Latest version of sklearn is part of scikit-learn
 	    "numpy==1.26.0",        # Latest stable version of numpy
 	    "pandas==2.1.0",        # Latest stable version of pandas
 	    "matplotlib==3.8.0",    # Latest stable version of matplotlib
