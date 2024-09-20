@@ -29,12 +29,12 @@ setuptools.setup(
 
 		 install_requires=[
 	    "scikit-learn",  # Latest version of sklearn is part of scikit-learn
-	    "numpy==1.26.0",        # Latest stable version of numpy
-	    "pandas==2.1.0",        # Latest stable version of pandas
-	    "matplotlib==3.8.0",    # Latest stable version of matplotlib
-	    "torch==2.1.0",         # Latest stable version of PyTorch
-	    "xgboost==1.7.6",       # Latest stable version of XGBoost
-	    "tqdm==4.66.1"          # Latest stable version of tqdm
+	    "numpy",        # Latest stable version of numpy
+	    "pandas",        # Latest stable version of pandas
+	    "matplotlib",    # Latest stable version of matplotlib
+	    "torch",         # Latest stable version of PyTorch
+	    "xgboost",       # Latest stable version of XGBoost
+	    "tqdm"          # Latest stable version of tqdm
 	],
 
 
