@@ -28,15 +28,15 @@ setuptools.setup(
 
 
 		 install_requires=[
-		"sklearn==0.0",
-		"numpy == 1.22.0",
-		"pandas == 1.3.3",
-		"matplotlib==3.4.3",
-		 "torch==1.9.0",
-        "xgboost==1.4.2",
-		"tqdm==4.62.2"
-
+	    "scikit-learn==1.3.0",  # Latest version of sklearn is part of scikit-learn
+	    "numpy==1.26.0",        # Latest stable version of numpy
+	    "pandas==2.1.0",        # Latest stable version of pandas
+	    "matplotlib==3.8.0",    # Latest stable version of matplotlib
+	    "torch==2.1.0",         # Latest stable version of PyTorch
+	    "xgboost==1.7.6",       # Latest stable version of XGBoost
+	    "tqdm==4.66.1"          # Latest stable version of tqdm
 	],
+
 
 
 	license="MIT",
